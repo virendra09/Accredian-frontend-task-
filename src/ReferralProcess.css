@@ -1,0 +1,65 @@
+.referral-process {
+    text-align: center;
+    margin: 2rem 0;
+    background-color: #85f4ed;
+    border:3px solid #05d3c5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .referral-process:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .referral-title {
+    font-size: 2rem;
+    color: #3f51b5;
+    margin-bottom: 1rem;
+  }
+  
+  .referral-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .referral-step {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fbdfc6;
+    border: 3px solid #f39a4c;
+  }
+  
+  .referral-step:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .referral-icon {
+    font-size: 2.5rem;
+    color: #3f51b5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .referral-text {
+    color: #555;
+  }
+  
+  .refer-now-button {
+    background-color: #3f51b5;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 2rem;
+  }
+  
+  .refer-now-button:hover {
+    background-color: #283593;
+    transform: scale(1.05);
+  }
+  

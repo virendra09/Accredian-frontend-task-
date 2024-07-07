@@ -1,38 +1,45 @@
-.App {
+.app-container {
+  background-color: #fbed72;
+  border: 3px solid #f1da04;
+  padding: 2rem;
+}
+
+.hero {
   text-align: center;
+  margin: 2rem 0;
+  background-color: #f5aaf5;
+  padding: 2rem;
+  border: 3px solid #bc04bc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3f51b5;
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.refer-button {
+  background-color: #3f51b5;
   color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.refer-button:hover {
+  background-color: #283593;
+  transform: scale(1.05);
 }

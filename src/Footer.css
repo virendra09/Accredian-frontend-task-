@@ -1,0 +1,16 @@
+.footer-section {
+    margin: 2rem 0;
+    background-color: #9ff169;
+    border: 3px solid #62ec07;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .footer-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+ 
